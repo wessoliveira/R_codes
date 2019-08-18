@@ -1,4 +1,6 @@
 #
+# Returns a table with information about the objects of R's global environment (their type and memory size).
+#
 memory_summary = function(object_names = NULL, sorting = "increasing"){
   
   objs = object_names
